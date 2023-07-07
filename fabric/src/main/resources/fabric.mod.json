@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "rewithered",
+  "version": "${version}",
+
+  "name": "ReWithered",
+  "description": "Revamps the Wither, making it more interesting to fight!",
+  "authors": ["12emin34"],
+  "contact": {},
+  "contributors": ["D1NO"],
+
+  "license": "GNU LGPL 3.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me._12emin34.rewithered.fabric.ReWitheredFabric"]
+  },
+  "mixins": [
+    "rewithered.mixins.json",
+    "rewithered-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": ">=1.20.1"
+  }
+}

@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU LGPL 3.0"
+issueTrackerURL="https://github.com/12emin34/ReWithered/issues"
+[[mods]]
+modId="rewithered"
+version="${version}"
+displayName="ReWithered"
+#updateJSONURL="http://myurl.me/"
+#displayURL="http://example.com/"
+logoFile="icon.png" #optional
+credits="All thanks goes to D1NO for designing the new mechanics."
+authors="12emin34"
+#displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
+
+description='''
+Revamps the wither, making it more interesting to fight!
+'''
+[[dependencies.rewithered]]
+   modId="forge"
+   mandatory=true
+   versionRange="[47,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.rewithered]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.20.1,1.21)"
+   ordering="NONE"
+   side="BOTH"

@@ -1,6 +1,5 @@
 package me._12emin34.rewithered.mixin;
 
-import me._12emin34.rewithered.entity.projectile.LingeringWitherSkull;
 import me._12emin34.rewithered.entity.projectile.SpawningWitherSkull;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.PowerableMob;
